@@ -1,0 +1,36 @@
+.brands {
+  background-color: #0f0f0f;
+}
+
+.brands__title {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 120px 0 45px;
+  margin-bottom: 70px;
+  position: relative;
+  &::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background: #fff;
+    position: absolute;
+  }
+}
+
+.brands__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 75px;
+}
+
+.brands__image {
+  display: inline-block;
+}

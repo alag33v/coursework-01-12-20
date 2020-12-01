@@ -1,0 +1,80 @@
+{
+    "source": "mockoon:1.11.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 13,
+                "name": "coursework",
+                "endpointPrefix": "data",
+                "latency": 0,
+                "port": 2020,
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\r\n  \"products\": [\r\n    {\r\n      \"name\": \"Louis XVI ATHOS\",\r\n      \"image\": \"images/after/new/1.png\",\r\n      \"cost\": \"55 000 грн\"\r\n    },\r\n    {\r\n      \"name\": \"Patek Philippe Nautilus\",\r\n      \"image\": \"images/after/new/5.png\",\r\n      \"cost\": \"870 000 грн\"\r\n    },\r\n    {\r\n      \"name\": \"Apple Watch\",\r\n      \"image\": \"images/after/new/2.png\",\r\n      \"cost\": \"15 000 грн\"\r\n    }\r\n  ],\r\n  \"arrivals\": [\r\n    {\r\n      \"name\": \"Louis XVI ATHOS\",\r\n      \"image\": \"images/after/new/1.png\",\r\n      \"cost\": \"55 000 грн\",\r\n      \"price\": \"55000\"\r\n    },\r\n    {\r\n      \"name\": \"Apple Watch\",\r\n      \"image\": \"images/after/new/2.png\",\r\n      \"cost\": \"15 000 грн\",\r\n      \"price\": \"15000\"\r\n    },\r\n    {\r\n      \"name\": \"Casio Baby-G\",\r\n      \"image\": \"images/after/new/3.png\",\r\n      \"cost\": \"3500 грн\",\r\n      \"price\": \"3500\"\r\n    },\r\n    {\r\n      \"name\": \"Rolex Cellini Dual Time\",\r\n      \"image\": \"images/after/new/4.png\",\r\n      \"cost\": \"570 000 грн\",\r\n      \"price\": \"570000\"\r\n    },\r\n    {\r\n      \"name\": \"Patek Philippe Nautilus\",\r\n      \"image\": \"images/after/new/5.png\",\r\n      \"cost\": \"870 000 грн\",\r\n      \"price\": \"870000\"\r\n    },\r\n    {\r\n      \"name\": \"Audemars Piguet Royal Oak Perpetual\",\r\n      \"image\": \"images/after/new/6.png\",\r\n      \"cost\": \"1 790 000 грн\",\r\n      \"price\": \"1790000\"\r\n    },\r\n    {\r\n      \"name\": \"Tissot T-Classic\",\r\n      \"image\": \"images/after/new/7.png\",\r\n      \"cost\": \"9000 грн\",\r\n      \"price\": \"9000\"\r\n    },\r\n    {\r\n      \"name\": \"Hublot Big Bang Integral\",\r\n      \"image\": \"images/after/new/8.png\",\r\n      \"cost\": \"595 000 грн\",\r\n      \"price\": \"595000\"\r\n    }\r\n  ]\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Origin",
+                        "value": "*"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Methods",
+                        "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Headers",
+                        "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

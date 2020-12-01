@@ -1,0 +1,129 @@
+.new {
+  background-color: #000;
+  padding-bottom: 25px;
+}
+
+.new__title {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 80px;
+  padding: 125px 0 45px;
+  position: relative;
+  &::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background: #fff;
+    position: absolute;
+  }
+}
+
+.new__sort {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.new__sort-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  display: block;
+}
+
+.new__sort-btn {
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+  margin: 0 0 0 25px;
+  padding: 10px 40px 10px 10px;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+  &::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    right: 9px;
+    transform: translateY(-50%);
+    background-image: url("../images/after/arrow-down.svg");
+    position: absolute;
+  }
+}
+
+.new__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.new__item {
+  width: 260px;
+  margin-bottom: 35px;
+}
+
+.new__item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 260px;
+  min-height: 325px;
+  background-color: #191b1c;
+}
+
+.new__item-image {
+  width: 215px;
+  height: 215px;
+  display: block;
+}
+
+.new__item-name {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.new__item-cost {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #d0d0d0;
+  display: block;
+}
+
+.new__btn {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  padding: 5px 10px;
+  min-width: 138px;
+  min-height: 47px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  transition: 0.6s;
+  display: block;
+  cursor: pointer;
+  &:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  &:active {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
